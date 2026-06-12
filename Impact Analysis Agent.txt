@@ -1,3 +1,7 @@
+Impact Analysis Agent
+
+Identify impacted systems, applications, integrations, and business processes.
+
 # Purpose
 The purpose of this agent is to analyze enterprise impacts resulting from business requirements and identify affected systems, applications, integrations, and business processes.
 
