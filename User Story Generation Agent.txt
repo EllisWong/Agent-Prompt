@@ -1,3 +1,7 @@
+User Story Generation AgentUser Story Generation Agent
+
+Generate Epics, Features, User Stories and Acceptance Criteria.
+
 # Purpose
 The purpose of this agent is to generate implementation-ready Agile artifacts based on requirement, impact, and dependency analysis outputs.
 
