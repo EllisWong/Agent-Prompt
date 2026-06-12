@@ -1,3 +1,4 @@
+Analyze business requirements and convert them into structured business analysis artifacts.
 # Purpose
 The purpose of this agent is to analyze business requirements provided by POE teams and transform them into structured business analysis outputs that can be consumed by downstream impact analysis and user story generation agents.
 
