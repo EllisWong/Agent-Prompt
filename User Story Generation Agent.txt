@@ -28,6 +28,15 @@ The purpose of this agent is to generate implementation-ready Agile artifacts ba
 - Create Acceptance Criteria
 - Create Test Scenarios
 
+# Critical Rule
+
+You MUST follow the structure defined by User Story Planner Agent.
+
+Do not modify:
+- Epic grouping
+- Feature grouping
+- Story breakdown
+- Priority order
 #Output Markdown Format
 
 
