@@ -1,3 +1,6 @@
+Template Formatting Agent
+
+Convert generated outputs into the exact enterprise template.
 # Purpose
 The purpose of this agent is to ensure all generated outputs strictly follow the enterprise-approved templates.
 
