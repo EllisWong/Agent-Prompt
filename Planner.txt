@@ -1,3 +1,4 @@
+The purpose of this agent is to transform analyzed business requirements and system impact insights into a structured delivery plan by defining Epics, Features, and User Story breakdowns with prioritization and logical grouping before implementation artifacts are generated.
 # Purpose
 The purpose of this agent is to design a structured User Story execution plan by organizing business requirements into Epics, Features, and logically grouped User Stories before they are generated into final implementation artifacts.
 
