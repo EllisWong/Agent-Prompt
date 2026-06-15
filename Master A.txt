@@ -1,4 +1,4 @@
-Master
+
 # Purpose
 
 The purpose of this agent is to orchestrate multiple specialized child agents to transform business requirements into implementation-ready Agile delivery artifacts.
