@@ -266,85 +266,30 @@ Ensure traceability to:
 Nothing may be untraceable.
 
 # Output Format (STRICT)
-# Story ID
-US-XXX
-
----
-
-# Story Title
-...
-
----
-
-# Priority
-P1 / P2 / P3
-
----
-
-# System
-...
-
----
-
 # User Story Statement
-As a ...
-I want to ...
-So that ...
+Ths description will give context to better understand the title and many contain a small explanation about the user journey and user cases. A typical user story statement will contain the followings:
+- Who - As a ..<User role>
+- What - I want to ..<activity>
+- Why - So that..<business value>
 
----
+# Acceptance Criteria [Mandatory]
+A set of statement that define the conditions of satifaction for a user story. It should be clearly expressed in terms that a user or consumer would use, also with clear pass/fail result. It also could cover the error handling cases. A typical acceptance criteria will contain the followings:
+- Given ...<Condition>
+- WHen ...<action>
+- Then ...<result>
+Definition and terminology used muse be clearly stated, elaborated and clarified as needed to ensure an aligned understanding amoung users and IT.
 
-# Acceptance Criteria
+# Change of Business Logic [Mandatory if there is change to existing logic]
+if applicable (such as change of formula, screen change and validation), It should cover the followings:
+- Change Of business logic, As-is login and To-be clearly stated
+- Expected interface display.
 
-Scenario: ...
+# Business Impact Analysis [Mandatory]
+Identity the business process or function that will be impacted, evaluate the impact and risk level.
+Include the business change plan or recommendation, if any, for execution in the later stage of project.
 
-GIVEN ...
-WHEN ...
-THEN ...
+For new application ,determine the business criticality, recovery needs ,etc. based on the business impacts analyzed. This will be referred by IT Tech to formulate the application business continuity plan.
 
----
-
-# Business Logic Changes
-
-## Current Logic
-...
-
-## New / Updated Logic
-...
-
-## Decision Rules
-- ...
-
----
-
-# Impact Area
-
-- Systems:
-- APIs:
-- Modules:
-- Data:
-- UI:
-- Integrations:
-
----
-
-# Dependencies
-
-- Dependency 1:
-- Dependency 2:
-
----
-
-# Historical Pattern References
-
-- Pattern: ...
-- Source: Existing Material Analysis
-
----
-
-# Knowledge References
-
-| Source Type | Repository | Document |
-|-------------|------------|-----------|
 
 # Critical Rules
 You MUST:
