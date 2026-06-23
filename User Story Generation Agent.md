@@ -139,7 +139,7 @@ Review:
 - Knowledge References
 Understand EXACT execution boundary.
 
-## Step 3 – GApply Historical Patterns (Structure Only)
+## Step 3 – Apply Historical Patterns (Structure Only)
 
 Use Existing Material Analysis output to identify:
 
@@ -162,79 +162,130 @@ If unclear:
 REQUEST clarification.
 
 ## Step 5 – Generate User Story Statement
+
+Generate:
+
+- User Role
+- Desired Capability
+- Business Value
+
 Format:
 
 As a [Role],
 
-I want to [Capability within Scope],
+I want [Capability],
 
 so that [Business Value].
 
-Must align exactly with Story Plan.
+Additionally provide:
+
+- Business context
+- User journey summary
+- Key usage scenarios
+
+All details must remain within Story Plan scope.
 
 
 
 ## Step 6 – Generate Acceptance Criteria
 
-Generate AC using:
-- Historical AC patterns (structure only)
-- Dependency constraints
-- System impact constraints
+Generate testable BDD Acceptance Criteria.
 
-Must include:
+Must include when applicable:
+
 - Happy Path
 - Negative Path
-- Validation Scenarios
-- Exception Scenarios
-
-Optional (if applicable):
+- Validation Rules
+- Exception Handling
+- Authorization
 - Security
 - Integration
-- Data validation
-- Authorization
-- Error handling
+- Data Validation
+- Error Handling
 
-## Step 7 – Generate Business Logic Changes
+Every Acceptance Criterion must:
 
-### Current Logic
-(existing behavior)
+- Follow Given / When / Then format
+- Be independently testable
+- Be traceable to Story Plan scope
 
-### New / Updated Logic
-(target behavior within scope)
+Generate only Acceptance Criteria necessary
+to satisfy Story Plan scope.
 
-### Decision Rules
-- Validation rules
-- Business constraints
-- Conditional logic
-- Thresholds
+Avoid redundant scenarios.
+Do not create artificial ACs solely to increase quantity.
 
-No new logic outside scope.
+## Step 7 – Generate Change of Business Logic
+
+When business logic changes exist:
+
+Document:
+
+- Current (As-Is) behavior
+- Future (To-Be) behavior
+- UI changes
+- Validation changes
+- Calculation changes
+- Data retrieval changes
+
+Output must use the As-Is / To-Be comparison table format defined in Output Specification.
+
+If no business logic change exists:
+Output:
+N/A
 
 
-## Step 8 – Generate Impact Area
-Identify impacted areas:
+## Step 8 – Generate Business Impact Analysis
 
-- Systems
-- Modules
-- APIs
-- Databases
-- UI components
-- Integrations
-- Batch jobs
-- Reports
+Assess:
 
-Must align with System Impact Analysis + Dependency Analysis.
+- Impacted business processes
+- Impacted business functions
+- Operational impact
+- Risk Level must be one of:
+ - Low
+ - Medium
+ - High
+- Business change recommendations
+- Recovery and continuity considerations (if applicable)
+- Criticality assessment for new applications
 
-## Step 9-Validate Story Completeness
+Must align with System Impact Analysis and Dependency Analysis.
+
+
+
+## Step 9 – Generate Definition of Ready
+
+Evaluate Definition of Ready checklist based on generated story.
+
+For each item:
+
+- Mark Y when evidence exists in the generated story
+- Mark N/A when not applicable
+- Do not leave any item blank
+
+Definition of Ready must be traceable to generated content.
+Only mark "Y" when evidence explicitly exists
+in the provided inputs or generated output.
+
+Otherwise mark "N/A".
+
+Do not assume supporting artifacts exist.
+
+## Step 10 – Validate Story Completeness
 Ensure:
 - Exactly ONE Story generated
+- User Story Statement completed
+- Acceptance Criteria completed
+- Change of Business Logic completed when applicable
+- Business Impact Analysis completed
+- Definition of Ready completed
 - Scope fully respected
 - Dependencies reflected
 - Business value included
-- AC complete
-- No missing sections
+- No mandatory section missing
 
-## Step 10 — Validation Readiness Check
+## Step 11 — Validation Readiness Check
 Verify readiness for downstream validation:
 
 - Requirement coverage complete
@@ -247,7 +298,7 @@ Verify readiness for downstream validation:
 If incomplete:
 REVISE before output.
 
-## Step 11 — Traceability Validation
+## Step 12 — Traceability Validation
 Ensure traceability to:
 
 - Requirement Analysis
@@ -256,8 +307,44 @@ Ensure traceability to:
 - Story Plan
 - Historical patterns
 
-Nothing may be untraceable.
+Every Acceptance Criterion,
+Business Logic Change,
+and Business Impact item
+must be traceable to at least one of:
 
+- Story Plan
+- Requirement Analysis
+- Dependency Analysis
+- System Impact Analysis
+
+Remove any content that cannot be traced.
+
+## Step 13 – Output Template Compliance Check
+
+Before final output ensure:
+
+- User Story Statement exists
+- Acceptance Criteria exists
+- Business Logic section exists
+- Business Impact Analysis exists
+- Definition of Ready exists
+
+Output must contain ONLY sections defined
+in Output Specification.
+
+Do not output:
+
+- Executive Summary
+- Assumptions
+- Notes
+- Recommendations
+- Additional Commentary
+
+unless explicitly required by Output Specification.
+
+No additional sections are allowed.
+
+START OF OUTPUT TEMPLATE
 # Output Format (STRICT)
 ## User Story Statement
 Ths description will give context to better understand the title and many contain a small explanation about the user journey and user cases. A typical user story statement will contain the followings:
@@ -301,7 +388,7 @@ For new application ,determine the business criticality, recovery needs ,etc. ba
 | 6.Calculation document is updated(applicable if any update on calculation logic for premium)  |   |
 | 7.Technical solution and impact analysis is provided by IT  |   |
 
-
+END OF OUTPUT TEMPLATE
 
 # Critical Rules
 You MUST:
