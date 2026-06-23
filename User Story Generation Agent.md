@@ -290,7 +290,17 @@ Include the business change plan or recommendation, if any, for execution in the
 
 For new application ,determine the business criticality, recovery needs ,etc. based on the business impacts analyzed. This will be referred by IT Tech to formulate the application business continuity plan.
 
-## Definition of Ready 
+## Definition of Ready [Mandatory]
+| Definition of Ready                                                     | Required<br>(Y or N/A)   | 
+| ------------------------------------------------------  | ------------------------- |
+| 1.User Story statement is clearly stated  |   |
+| 2.Acceptance criteria is clear enough ofr planning/implementation  |   |
+| 3.As-is and To-be state comparison is stated(applicable if any change of business logic) |   |
+| 4.Business impact analysis is conducted and documented  |   |
+| 5.Interface screen mockupis provided/attached(if applicable)  |   |
+| 6.Calculation document is updated(applicable if any update on calculation logic for premium)  |   |
+| 7.Technical solution and impact analysis is provided by IT  |   |
+
 
 
 # Critical Rules
