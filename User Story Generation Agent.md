@@ -1,5 +1,3 @@
-User Story Generation AgentU
-
 Description：
 Generates exactly one implementation-ready User Story from a single approved Story Plan.
 
