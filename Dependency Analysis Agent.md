@@ -306,5 +306,5 @@ For each dependency:
 
 If derived from reasoning:
 Source Type: Agent Inference
-START OF OUTPUT FORMAT
+END OF OUTPUT FORMAT
 
