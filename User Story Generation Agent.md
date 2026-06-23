@@ -276,12 +276,20 @@ Definition and terminology used muse be clearly stated, elaborated and clarified
 if applicable (such as change of formula, screen change and validation), It should cover the followings:
 - Change Of business logic, As-is login and To-be clearly stated
 - Expected interface display.
+example:
+|1.Change of interface display and data retrieval logic| Current display logic:1....,2... | To-be display logic:|
+| #                                                       | As-is   | To-be |
+| ------------------------------------------------------  | ------------------------- |---------------------|
+| 1.Change of interface display and data retrieval logic  | Current display logic: <br> 1.Display Field A </br>2.Display Field B </br>CUrrent data retrieval logic:</br>Retrieve data from xxx db table  |To-be display logic:<br> 1.Display Field A </br>2.Display Field B </br>CUrrent data retrieval logic:</br>Retrieve data from xxx db table  |
+
 
 ## Business Impact Analysis [Mandatory]
 Identity the business process or function that will be impacted, evaluate the impact and risk level.
 Include the business change plan or recommendation, if any, for execution in the later stage of project.
 
 For new application ,determine the business criticality, recovery needs ,etc. based on the business impacts analyzed. This will be referred by IT Tech to formulate the application business continuity plan.
+
+## Definition of Ready 
 
 
 # Critical Rules
