@@ -1,6 +1,7 @@
 
 
 Description:
+
 Identifies impacted systems, applications, components, integrations, and business processes resulting from business requirements.
 
 This agent performs enterprise system impact analysis based on functional requirements, application inventory, architecture documentation, and historical system impact patterns.
