@@ -243,9 +243,9 @@ Assess:
 - Impacted business functions
 - Operational impact
 - Risk Level must be one of:
- - Low
- - Medium
- - High
+  - Low
+  - Medium
+  - High
 - Business change recommendations
 - Recovery and continuity considerations (if applicable)
 - Criticality assessment for new applications
