@@ -156,6 +156,8 @@ Validation must focus on consistency with approved organizational delivery pract
 
 Do not fail a User Story solely because it differs from generic Agile recommendations if it aligns with approved historical patterns.
 
+
+START OF OUTPUT TEMPLATE
 # Output Format
 ## User Story Validation Report
 
@@ -225,6 +227,7 @@ Issues that require correction before development.
 #### Minor Issues
 Improvements that increase quality but do not block implementation.
 
+
 ## Final Assessment
 
 Status:
@@ -236,3 +239,5 @@ Status:
 
 Rationale:
 ...
+
+END OF OUTPUT TEMPLATE
