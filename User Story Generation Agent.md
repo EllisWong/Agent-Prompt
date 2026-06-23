@@ -280,7 +280,7 @@ example:
 
 | #                                                       | As-is   | To-be |
 | ------------------------------------------------------  | ------------------------- |---------------------|
-| 1.Change of interface display and data retrieval logic  | Current display logic: <br> 1.Display Field A </br>2.Display Field B </br>CUrrent data retrieval logic:</br>Retrieve data from xxx db table  |To-be display logic:<br> 1.Display Field A </br>2.Display Field B </br>CUrrent data retrieval logic:</br>Retrieve data from xxx db table  |
+| 1.Change of interface display and data retrieval logic  | Current display logic: <br> 1.Display Field A </br>2.Display Field B </br>Current data retrieval logic:</br>Retrieve data from xxx db table  |To-be display logic:<br> 1.Display Field A </br>2.Display Field B </br>Current data retrieval logic:</br>Retrieve data from xxx db table  |
 
 
 
