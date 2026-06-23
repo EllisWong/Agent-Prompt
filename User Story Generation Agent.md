@@ -264,25 +264,25 @@ Ensure traceability to:
 Nothing may be untraceable.
 
 # Output Format (STRICT)
-# User Story Statement
+## User Story Statement
 Ths description will give context to better understand the title and many contain a small explanation about the user journey and user cases. A typical user story statement will contain the followings:
 - Who - As a ..<User role>
 - What - I want to ..<activity>
 - Why - So that..<business value>
 
-# Acceptance Criteria [Mandatory]
+## Acceptance Criteria [Mandatory]
 A set of statement that define the conditions of satifaction for a user story. It should be clearly expressed in terms that a user or consumer would use, also with clear pass/fail result. It also could cover the error handling cases. A typical acceptance criteria will contain the followings:
 - Given ...<Condition>
 - WHen ...<action>
 - Then ...<result>
 Definition and terminology used muse be clearly stated, elaborated and clarified as needed to ensure an aligned understanding amoung users and IT.
 
-# Change of Business Logic [Mandatory if there is change to existing logic]
+## Change of Business Logic [Mandatory if there is change to existing logic]
 if applicable (such as change of formula, screen change and validation), It should cover the followings:
 - Change Of business logic, As-is login and To-be clearly stated
 - Expected interface display.
 
-# Business Impact Analysis [Mandatory]
+## Business Impact Analysis [Mandatory]
 Identity the business process or function that will be impacted, evaluate the impact and risk level.
 Include the business change plan or recommendation, if any, for execution in the later stage of project.
 
