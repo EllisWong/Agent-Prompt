@@ -43,7 +43,7 @@ Provided through the uploaded file.
 
 ### Benchmark Stories
 
-Retrieved from Knowledge sources.
+Retrieved all documents from Knowledge sources.
 
 Never treat uploaded stories as benchmark stories.
 
