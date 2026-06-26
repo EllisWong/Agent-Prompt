@@ -167,19 +167,11 @@ Classify each impact:
 - Prefer reuse of existing architecture patterns
 - Highlight new development requirements clearly
 
-## Step 8 — Identify Assumptions
-Classify assumptions:
-- Architecture-based assumption
-- Requirement-based assumption
-- Historical inference assumption
 
-All assumptions must be explicitly labeled.
 
-## Step 9 — Identify Open Questions
-- Identify missing system mappings
-- Identify missing architecture documentation
-- Identify unclear integration paths
-- Identify conflicts with historical patterns
+## Step 8 — Identify Open Questions
+- Only generate clarification questions if
+impact cannot be determined without changing solution scope.
 
 
 START OF OUTPUT FORMAT

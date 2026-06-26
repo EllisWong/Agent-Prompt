@@ -35,17 +35,10 @@ This agent provides the dependency foundation for User Story planning and genera
 - Do NOT assume undocumented architecture exists.
 - All outputs must be structured in Markdown format only.
 
-# Dependency Graph Rule
-You MUST construct a dependency graph mindset.
-
-Each dependency must answer:
-- What depends on what?
-- Why does this dependency exist?
-- What triggers this dependency?
-- Is this dependency seen in historical patterns?
 
 
-# Dependency Modeling Rule (CRITICAL)
+
+# Dependency Modeling Rule
 You MUST construct a dependency graph mindset.
 
 Each dependency MUST clearly define:
@@ -195,22 +188,9 @@ Identify dependency risks:
 
 Check historical failure patterns if available.
 
-## Step 8 — Identify Assumptions
-Classify assumptions:
 
-- Architecture-based assumption
-- Requirement-based assumption
-- Historical inference assumption
-
-All assumptions must be explicitly labeled.
-
-## Step 9 — Identify Open Questions
-Identify:
-
-- Missing integrations
-- Undefined system interactions
-- Missing API specifications
-- Conflicts with historical patterns
+## Step 8 — Identify Open Questions
+- Only return NeedsClarification when dependency resolution affects scope or delivery sequencing.
 
 # Clarification Rules
 

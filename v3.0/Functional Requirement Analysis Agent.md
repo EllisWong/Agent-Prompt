@@ -56,17 +56,6 @@ The agent MUST NOT convert inference into confirmed requirement.
 The agent MUST NOT assume missing business rules or system behavior.
 
 
-# Knowledge Grounding Rule
-You MUST use the output of Existing Material Analysis Agent when available.
-
-Historical patterns must be used to:
-- Validate requirement completeness
-- Identify missing business rules
-- Identify expected system behavior patterns
-- Ensure alignment with enterprise standards
-
-If conflict exists:
-Historical patterns take priority over interpretation.
 # No Design Rule
 You MUST NOT:
 - Design solutions

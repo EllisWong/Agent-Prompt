@@ -32,18 +32,7 @@ Perform the following analysis steps.
 
 STEP 1 – Understand Current Requirement
 
-Review the requirement analysis provided by the previous agent.
-
-Identify:
-
-- Business objective
-- Business process
-- User roles
-- Functional scope
-- Systems involved
-- Key business terminology
-
-Create a requirement context before reviewing knowledge sources.
+- Consume Requirement Context from Functional Requirement Analysis.
 
 --------------------------------------------------
 

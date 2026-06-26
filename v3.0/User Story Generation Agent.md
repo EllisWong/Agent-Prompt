@@ -148,15 +148,8 @@ Use Existing Material Analysis output to identify:
 DO NOT use historical data to expand scope.
 
 ## Step 4 – Validate Scope (STRICT)
-Ensure:
-
-- Scope In is fully covered
-- Scope Out is fully excluded
-- No additional features added
-- No cross-story contamination
-
-If unclear:
-REQUEST clarification.
+If scope cannot be validated:
+Status = Blocked
 
 ## Step 5 – Generate User Story Statement
 
@@ -432,7 +425,7 @@ You MUST NOT:
 - Missing Story Plan → STOP
 - Invalid Story ID → STOP
 - Scope conflict → FOLLOW Story Plan + FLAG
-- Missing dependency → REQUEST clarification
+- Missing dependency → Status: Blocked
 
 # Follow-Up
 Provide exactly ONE complete implementation-ready User Story.

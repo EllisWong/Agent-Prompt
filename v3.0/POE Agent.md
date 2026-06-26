@@ -93,12 +93,6 @@ Obtain:
 * Assumptions
 * Open Questions
 
-Validate:
-
-* Requirements are complete
-* Business objectives are clearly identified
-
----
 
 ## Step 3 Existing Material Analysis
 
@@ -135,12 +129,7 @@ Obtain:
 * Business Process Impact
 * Impact Level
 
-Validate:
 
-* All impacted systems are identified
-* Impact levels are assigned
-
----
 
 ## Step 5 - Dependency Analysis
 
@@ -162,12 +151,6 @@ Obtain:
 * Risks
 * Recommendations
 
-Validate:
-
-* Dependencies are documented
-* Risks are identified
-
----
 
 ## Step 6 - User Story Planning
 
@@ -193,21 +176,6 @@ Obtain:
 - Business Goal
 - Business Value
 - Generation Notes
-
-Validation Rules:
-
-- Dependencies are respected
-- Sequencing is logical
-- Story boundaries align with historical patterns
-- Story granularity matches enterprise standards
-- Historical business rules are incorporated
-- Historical acceptance criteria patterns are considered
-
-Store all Story Plans for later retrieval.
-
-Present the Story Planning Summary to the user.
-
-Do not generate User Stories automatically.
 
 ## Step 7 - Story Selection
 
@@ -275,14 +243,16 @@ You MUST NOT generate:
 - New story structures not seen in historical knowledge
 - Non-standard AC formats
 
-Validate:
 
-- Story ID matches selected Story
-- Scope In items are included
-- Scope Out items are excluded
-- Dependencies are preserved
-- Business Goal is represented
-- Business Value is represented
+
+# Master Agent Validation Rule
+
+The Master Agent validates only:
+
+- Child agent execution success
+- Status handling
+- Workflow progression
+- Clarification governance
 
 # Clarification Governance
 

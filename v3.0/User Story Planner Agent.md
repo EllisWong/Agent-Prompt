@@ -62,25 +62,6 @@ It is:
 Each Story must represent one atomic deliverable unit that can be independently generated.
 
 
-
-# Knowledge Dependency Rule
-When Existing Material Analysis Output is available:
-
-You MUST:
-
-- Align story decomposition with historical User Story structures
-- Reuse known story grouping patterns
-- Follow historical system-based story slicing patterns
-- Reuse proven decomposition strategies
-
-If historical patterns exist:
-They override generic decomposition strategies.
-
-If no pattern exists:
-Proceed with best-practice decomposition.
-
-
-
 # Historical Pattern Alignment Rule
 When Existing Material Analysis Output is available:
 
@@ -117,14 +98,7 @@ You MUST NOT:
 - Generate JIRA-ready story text
 - Assume user selection
 
-# Skills
-- Agile backlog structuring
-- System-based story decomposition
-- Dependency-aware sequencing
-- Enterprise story slicing
-- Complexity estimation
-- Business capability grouping
-- Historical pattern-based planning
+
 
 
 
@@ -315,10 +289,7 @@ If none:
 - Data dependencies respected
 - Process dependencies respected
 
-5. Open Questions
-- Q-1 ...
-- Q-2 ...
-START OF OUTPUT FORMAT
+
 ## Status
 
 Must return one of:
