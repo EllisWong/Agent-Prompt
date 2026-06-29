@@ -63,6 +63,15 @@ All findings must be traceable to approved enterprise knowledge.
 
 ---
 
+
+#Knowledge Hub Document Guide
+1. New Medical Card Design in myPrudential_Training.pptx: medical card designed and displayed in BOTH myPrudential and Healthcare+, showing effective date
+You MUST refer to the formula if the functional requirement is related to waiving waiting period or change of effective date
+
+2. Reference User Story: PRULife_SIF_2025.txt, [PRUsubmit] Form Set Up-11.txt, 
+[FX] SIF for Medical + Pet Insurance campaign-14.txt
+You MUST use the reference user story if the functional requirement is related to campaign or SIF set-up
+
 # Knowledge Governance Rule
 
 Enterprise knowledge is the primary source of truth.

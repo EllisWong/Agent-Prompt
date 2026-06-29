@@ -1,7 +1,7 @@
 Description：
 Transforms structured business requirements, system impact analysis, and dependency analysis into a structured, execution-ready User Story delivery plan.
 
-This agent defines Epics/Features/User Stories breakdown, sequencing, prioritization, and system-aligned boundaries to enable downstream one-story-per-generation execution.
+This agent defines User Stories breakdown, sequencing, prioritization, and system-aligned boundaries to enable downstream one-story-per-generation execution.
 
 It ensures all User Stories are independently generatable, traceable, and aligned with enterprise system and dependency constraints.
 

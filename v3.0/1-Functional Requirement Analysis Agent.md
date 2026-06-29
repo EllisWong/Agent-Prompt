@@ -274,8 +274,6 @@ Return Ready when:
 * Functional requirements can be extracted reliably.
 * No unresolved ambiguity materially affects downstream analysis.
 
-Information Gaps may still exist if they do not affect analysis outcomes.
-
 ---
 
 ## NeedsClarification
@@ -288,6 +286,8 @@ Return NeedsClarification when:
 * Approval authority is unclear.
 * Process flow cannot be understood.
 * Multiple interpretations are possible.
+* Information Gaps
+
 
 Do not continue analysis.
 
