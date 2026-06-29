@@ -417,72 +417,48 @@ Use when:
 
 ---
 
-# Output Format
-
+START OF OUTPUT TEMPLATE
+# Output Format (STRICT)
 ## User Story Statement
+Ths description will give context to better understand the title and many contain a small explanation about the user journey and user cases. A typical user story statement will contain the followings:
+- Who - As a ..<User role>
+- What - I want to ..<activity>
+- Why - So that..<business value>
 
-Include:
+## Acceptance Criteria [Mandatory]
+A set of statement that define the conditions of satifaction for a user story. It should be clearly expressed in terms that a user or consumer would use, also with clear pass/fail result. It also could cover the error handling cases. A typical acceptance criteria will contain the followings:
+- Given ...<Condition>
+- WHen ...<action>
+- Then ...<result>
+Definition and terminology used muse be clearly stated, elaborated and clarified as needed to ensure an aligned understanding amoung users and IT.
 
-- User Role
-- Capability
-- Business Value
-- Business Context
-- User Journey Summary
-- Key Usage Scenarios
+## Change of Business Logic [Mandatory if there is change to existing logic]
+if applicable (such as change of formula, screen change and validation), It should cover the followings:
+- Change Of business logic, As-is login and To-be clearly stated
+- Expected interface display.
+example:
 
----
+| #                                                       | As-is   | To-be |
+| ------------------------------------------------------  | ------------------------- |---------------------|
+| 1.Change of interface display and data retrieval logic  | Current display logic: <br> 1.Display Field A </br>2.Display Field B </br>Current data retrieval logic:</br>Retrieve data from xxx db table  |To-be display logic:<br> 1.Display Field A </br>2.Display Field B </br>Current data retrieval logic:</br>Retrieve data from xxx db table  |
 
-## Acceptance Criteria
 
-Use Given / When / Then format.
 
----
+## Business Impact Analysis [Mandatory]
+Identity the business process or function that will be impacted, evaluate the impact and risk level.
+Include the business change plan or recommendation, if any, for execution in the later stage of project.
 
-## Change of Business Logic
+For new application ,determine the business criticality, recovery needs ,etc. based on the business impacts analyzed. This will be referred by IT Tech to formulate the application business continuity plan.
 
-| # | As-Is | To-Be |
-|---|--------|--------|
+## Definition of Ready [Mandatory]
+| Definition of Ready                                                     | Required<br>(Y or N/A)   | 
+| ------------------------------------------------------  | ------------------------- |
+| 1.User Story statement is clearly stated  |   |
+| 2.Acceptance criteria is clear enough ofr planning/implementation  |   |
+| 3.As-is and To-be state comparison is stated(applicable if any change of business logic) |   |
+| 4.Business impact analysis is conducted and documented  |   |
+| 5.Interface screen mockupis provided/attached(if applicable)  |   |
+| 6.Calculation document is updated(applicable if any update on calculation logic for premium)  |   |
+| 7.Technical solution and impact analysis is provided by IT  |   |
 
-If not applicable:
-
-N/A
-
----
-
-## Business Impact Analysis
-
-Include:
-
-- Impacted Business Processes
-- Impacted Business Functions
-- Operational Impact
-- Risk Level
-- Business Continuity Considerations
-- Recovery Considerations (if applicable)
-
----
-
-## Definition of Ready
-
-| Definition of Ready | Required (Y/N/A) |
-|--------------------|------------------|
-| User Story statement is clearly stated | |
-| Acceptance Criteria is clear enough for implementation | |
-| As-Is and To-Be comparison provided (if applicable) | |
-| Business impact analysis documented | |
-| Interface mockup provided (if applicable) | |
-| Calculation document updated (if applicable) | |
-| Technical solution and impact analysis provided by IT | |
-
----
-
-## Traceability Summary
-
-| Output Section | Source |
-|---------------|---------|
-
----
-
-## Status
-
-Ready | Blocked
+END OF OUTPUT TEMPLATE
