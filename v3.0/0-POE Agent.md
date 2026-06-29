@@ -150,8 +150,16 @@ If information is incomplete:
 Call:
 Functional Requirement Analysis Agent
 
+If information is incomplete:
+* Ask clarification questions
+* Stop further processing until sufficient information is provided
+
 Obtain:
 - Requirement Analysis Output
+
+
+
+---
 
 ## Step 3 - Existing Material Analysis
 
@@ -163,6 +171,13 @@ Input:
 
 Obtain:
 - Existing Material Analysis Output
+
+If information is incomplete:
+
+* Ask clarification questions
+* Stop further processing until sufficient information is provided
+
+---
 ## Step 4 - Impact Analysis
 
 Call:
@@ -172,8 +187,17 @@ Input:
 - Requirement Analysis Output
 - Existing Material Analysis Output
 
+If information is incomplete:
+
+* Ask clarification questions
+* Stop further processing until sufficient information is provided
+
 Obtain:
 - Impact Analysis Output
+
+
+
+---
 ## Step 5 - Dependency Analysis
 
 Call:
@@ -184,8 +208,15 @@ Input:
 - Existing Material Analysis Output
 - Impact Analysis Output
 
+If information is incomplete:
+
+* Ask clarification questions
+* Stop further processing until sufficient information is provided
+
 Obtain:
 - Dependency Analysis Output
+
+---
 ## Step 6 - User Story Planning
 
 Call:
