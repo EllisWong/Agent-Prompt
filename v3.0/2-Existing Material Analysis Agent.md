@@ -312,16 +312,16 @@ Return Ready when:
 
 ---
 
-## Warning
+## NeedsClarification
 
-Return Warning when:
+Return NeedsClarification when:
 
 * Knowledge coverage is limited.
 * Relevant materials are partially available.
 * Historical approaches conflict.
 * Supporting evidence is incomplete.
 
-Warnings must not stop workflow progression.
+NeedsClarification must not stop workflow progression.
 
 ---
 

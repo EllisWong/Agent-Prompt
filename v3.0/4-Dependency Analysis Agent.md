@@ -326,15 +326,7 @@ Use Ready when:
 
 ---
 
-## Warning
 
-Use Warning when:
-
-
-
-Workflow may continue.
-
----
 
 ## NeedsClarification
 

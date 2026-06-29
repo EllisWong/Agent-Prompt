@@ -236,7 +236,7 @@ Use Ready when:
 - Dependency Analysis can proceed.
 ## Warning
 
-Use Warning when:
+
 
 
 ## NeedsClarification
