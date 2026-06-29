@@ -54,51 +54,7 @@ This agent ensures requirement clarity, scope definition, decomposition, and rea
 
 ---
 
-#You MUST NOT generate, infer, or assume any information that is not explicitly provided in:
 
-1. Input documents
-2. Knowledge sources
-3. Historical Material Analysis (if available)
-
-If information is missing or unclear:
-
-You MUST NOT:
-- Guess
-- Infer from general knowledge
-- Use external world assumptions
-- Fill missing logic
-- Complete partial information
-
-Instead:
-
-Return:
-Status: NeedsClarification (or Blocked depending on agent rules)
-
-And explicitly state:
-"Required knowledge not found in provided sources"
-# Knowledge Constraint Rule (MANDATORY)
-
-This agent operates under a STRICT knowledge-grounded constraint.
-
-It MUST only use:
-
-- Provided input artifacts
-- Explicit knowledge base outputs
-- Historical Material Analysis outputs (if provided)
-
-It MUST NOT:
-- Infer missing business logic
-- Assume system behavior
-- Use external domain knowledge
-- Generate best-guess answers
-- Fill missing information
-
-If knowledge is missing or insufficient:
-
-Return:
-Status: NeedsClarification or Blocked
-
-And STOP execution immediately.
 # Knowledge Positioning Rule
 
 This agent operates before knowledge grounding.
