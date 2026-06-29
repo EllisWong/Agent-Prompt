@@ -286,7 +286,7 @@ Return NeedsClarification when:
 * Approval authority is unclear.
 * Process flow cannot be understood.
 * Multiple interpretations are possible.
-* Information Gaps
+* Information Gaps exists
 
 
 Do not continue analysis.

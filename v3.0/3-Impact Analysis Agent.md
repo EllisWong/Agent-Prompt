@@ -238,10 +238,6 @@ Use Ready when:
 
 Use Warning when:
 
-- Partial knowledge exists.
-
-
-- Workflow may continue.
 
 ## NeedsClarification
 
@@ -257,7 +253,9 @@ Examples:
 - Some impacts are unknown.
 - Historical materials are incomplete.
 - Architecture coverage is incomplete.
-- Any open questions
+- Partial knowledge exists.
+- Workflow may continue.
+- Questions exists.
 
 Return:
 Status: NeedsClarification
