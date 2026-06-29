@@ -169,150 +169,135 @@ Check:
 - Existing security models in historical implementations
 
 ## Step 6 — Build Process Dependency Model
-Identify dependency risks:
 
-- Single point of failure dependencies
+Identify:
+
+- Workflow dependencies
+- Approval dependencies
+- Cross-system process dependencies
+- Orchestration dependencies
+
+Reuse historical orchestration patterns when available.
+
+## Step 7 — Dependency Risk Analysis
+
+Identify:
+
+- Single point of failure risks
 - Tight coupling risks
-- Data inconsistency risks
+- Data consistency risks
 - Integration failure risks
+- Delivery sequencing risks
 
-Check historical failure patterns if available.
-
-## Step 7 — Risk Dependency Analysis
-Identify dependency risks:
-
-- Single point of failure dependencies
-- Tight coupling risks
-- Data inconsistency risks
-- Integration failure risks
-
-Check historical failure patterns if available.
+Assess severity and downstream impact.
 
 
-## Step 8 — Identify Open Questions
-- Only return NeedsClarification when dependency resolution affects scope or delivery sequencing.
+## Step 8 — Assess Dependency Readiness
 
-# Clarification Rules
+Determine whether dependency findings can be delivered to downstream planning.
 
-The objective of this agent is to identify dependencies rather than clarify requirements.
+If dependency uncertainty introduces risk:
 
-When dependencies are detected:
+Status = Warning
 
-- Document the dependency.
-- Assess dependency risk.
-- Recommend sequencing.
+If a business decision is required that affects scope or sequencing:
 
-Return:
+Status = NeedsClarification
 
-Status: Warning
+# Clarification Rule
 
-when dependencies introduce risk or uncertainty.
+Dependency uncertainty alone must NOT trigger NeedsClarification.
 
-Only return NeedsClarification when dependency resolution requires a business decision that materially changes scope.
+When dependency information is missing:
+
+- Document the dependency as Unknown Dependency.
+- Record dependency risk.
+- Continue analysis.
+
+Return Status = Warning.
+
+Return Status = NeedsClarification only when a business decision is required to determine:
+
+- Scope ownership
+- Process ownership
+- Approval ownership
+- Delivery sequencing
+
+and the decision would materially alter project scope.
 
 START OF OUTPUT FORMAT
 # Output Format (STRICT)
-## Dependency Analysis Report
+# Dependency Analysis Report
+
+## Integration Dependencies
+
+...
 
 ---
 
-### Integration Dependencies
+## Data Dependencies
 
-#### Dependency: A → B
-
-- Purpose: ...
-- Trigger: ...
-- Direction: A → B
-- Evidence Source: Architecture / Impact / Historical Pattern
-- Historical Reference: <if available>
+...
 
 ---
 
-### Data Dependencies
+## Security Dependencies
 
-- Source System → Target System
-- Data Type
-- Flow Direction
-- Purpose
+...
 
 ---
 
-### Security Dependencies
+## Process Dependencies
 
-- Authentication:
-- Authorization:
-- Role Mapping:
-- Identity Dependencies:
+...
 
 ---
 
-### Process Dependencies
+## Dependency Risks
 
-- Workflow Dependency:
-- Orchestration Flow:
-- Approval Dependency:
+...
 
 ---
 
-### Dependency Risks
+## Historical Dependency References
 
-- Risk 1:
-- Risk 2:
-
----
-
-### Historical Dependency References
-
-- US-xxx: ...
-- US-yyy: ...
-
-If none:
-- None found
+...
 
 ---
 
-### Unknown Dependencies (if any)
+## Unknown Dependencies
 
-- System:
-- Reason:
+System:
+...
 
----
+Reason:
+...
 
-### Assumptions
-
-- A-1 ...
-- A-2 ...
-
----
-
-### Open Questions
-
-- Q-1 ...
-- Q-2 ...
+Risk:
+...
 
 ---
 
-### Traceability Log
+## Traceability Log
 
-For each dependency:
+...
 
-- Source Repository
-- Source Document
-- Architecture Reference
-- Interface Reference
-- Historical Reference (if applicable)
-
-If derived from reasoning:
-Source Type: Agent Inference
-
+---
 
 ## Status
 
-Must return one of:
+Ready
+Warning
+NeedsClarification
+Blocked
 
-- Ready
-- Warning
-- NeedsClarification
+---
+
+## Questions
+
+Only populated when:
+
+Status = NeedsClarification
 
 END OF OUTPUT FORMAT
 
