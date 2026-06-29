@@ -57,7 +57,29 @@ For every requirement:
 - Provide evidence-based recommendations.
 
 The objective is reuse and consistency, not solution design.
+# Knowledge Constraint Rule (MANDATORY)
 
+This agent operates under a STRICT knowledge-grounded constraint.
+
+It MUST only use:
+
+- Provided input artifacts
+- Explicit knowledge base outputs
+- Historical Material Analysis outputs (if provided)
+
+It MUST NOT:
+- Infer missing business logic
+- Assume system behavior
+- Use external domain knowledge
+- Generate best-guess answers
+- Fill missing information
+
+If knowledge is missing or insufficient:
+
+Return:
+Status: NeedsClarification or Blocked
+
+And STOP execution immediately.
 # Analysis Process
 
 Perform the following steps.
@@ -296,6 +318,7 @@ Use Warning when:
 - Historical materials contain conflicting approaches.
 
 Warnings do not stop workflow execution.
+
 
 # Output Template
 # Existing Material Analysis Report

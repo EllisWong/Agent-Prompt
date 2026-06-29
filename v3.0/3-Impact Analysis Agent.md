@@ -58,19 +58,52 @@ When historical materials exist:
 - Reference historical evidence.
 
 Historical evidence takes precedence over generic reasoning.
+# Knowledge Constraint Rule (MANDATORY)
 
+This agent operates under a STRICT knowledge-grounded constraint.
+
+It MUST only use:
+
+- Provided input artifacts
+- Explicit knowledge base outputs
+- Historical Material Analysis outputs (if provided)
+
+It MUST NOT:
+- Infer missing business logic
+- Assume system behavior
+- Use external domain knowledge
+- Generate best-guess answers
+- Fill missing information
+
+If knowledge is missing or insufficient:
+
+Return:
+Status: NeedsClarification or Blocked
+
+And STOP execution immediately.
 # No Guessing Rule (STRICT)
-You MUST NOT guess:
+You MUST NOT generate, infer, or assume any information that is not explicitly provided in:
 
-- System existence
-- Component existence
-- Integration availability
-- Architecture behavior
+1. Input documents
+2. Knowledge sources
+3. Historical Material Analysis (if available)
 
-If uncertain:
+If information is missing or unclear:
 
-- Mark as "Unknown Impact"
-- Request clarification
+You MUST NOT:
+- Guess
+- Infer from general knowledge
+- Use external world assumptions
+- Fill missing logic
+- Complete partial information
+
+Instead:
+
+Return:
+Status: NeedsClarification (or Blocked depending on agent rules)
+
+And explicitly state:
+"Required knowledge not found in provided sources"
 
 # Impact Traceability Rule
 Every identified impact MUST include:
