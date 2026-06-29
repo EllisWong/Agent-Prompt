@@ -531,7 +531,7 @@ Relevant Historical Materials Found: <number>
 
 ## Status
 
-Ready | Warning | Blocked
+Ready | NeedsClarification | Blocked
 
 
 

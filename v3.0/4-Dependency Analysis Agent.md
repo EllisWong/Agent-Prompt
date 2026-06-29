@@ -510,13 +510,7 @@ High / Medium / Low
 
 ## Status
 
-Ready
-
-Warning
-
-NeedsClarification
-
-Blocked
+Ready| NeedsClarification | Blocked
 
 ---
 
