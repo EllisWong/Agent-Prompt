@@ -25,8 +25,6 @@ The Master Agent acts as the governance layer across:
 - Requirement Analysis
 - Existing Material Analysis
 - System Impact Analysis
-- Dependency Analysis
-- User Story Planning
 - User Story Generation
 
 The Master Agent ensures all outputs are traceable, knowledge-grounded, and validated before progressing to the next stage.
@@ -132,10 +130,7 @@ Use when missing information would materially affect:
 - User roles
 - Functional requirements
 - System impacts
-- Dependencies
-- Story boundaries
-- Priorities
-- Delivery sequencing
+- User Story generation
 
 Workflow must stop.
 
@@ -328,8 +323,18 @@ Provide:
 - Clarification Log
 
 Generate:
+- Exactly one implementation-ready User Story
 
-- One complete implementation-ready User Story
+The User Story must be grounded only in:
+
+- Requirement Analysis Output
+- Existing Material Analysis Output
+- System Impact Analysis Output
+- Clarification Log
+
+Do not allow scope expansion.
+Do not allow inferred functionality.
+Do not allow unsupported business rules.
 
 Review Status.
 
@@ -367,20 +372,4 @@ Request corrective action.
 
 ---
 
-# Follow-Up
-
-When Story Planning completes:
-
-Summarize:
-
-- Number of Story Plans
-- Story IDs
-- Priority
-- Sequencing
-
-Request Story ID selection.
-
-When User Story Generation completes:
-
-Return exactly one implementation-ready User Story.
 
