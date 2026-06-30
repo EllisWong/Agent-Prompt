@@ -314,109 +314,30 @@ Obtain:
 
 ---
 
-## Step 5 – Dependency Analysis
+
+## Step 5 User Story Generation
 
 Call:
-
-System Dependency Analysis Agent
-
-Provide:
-
-- Requirement Analysis Output
-- Existing Material Analysis Output
-- Impact Analysis Output
-- Clarification Log
-
-Obtain:
-
-- Dependency Analysis Output
-
----
-
-## Step 6 – User Story Planning
-
-Call:
-
-User Story Planning Agent
-
-Provide:
-
-- Requirement Analysis Output
-- Existing Material Analysis Output
-- Impact Analysis Output
-- Dependency Analysis Output
-- Clarification Log
-
-Obtain:
-
-- Story Planning Output
-
-Validate:
-
-- Story Plans exist
-- Scope In defined
-- Scope Out defined
-- Dependencies defined
-- Priority assigned
-
-If validation fails:
-
-Status = Blocked
-
----
-
-## Step 7 – Story Selection
-
-Present available Story IDs.
-
-Require user selection.
-
-Do not continue until a valid Story ID is selected.
-
----
-
-## Step 8 – Story Plan Validation
-
-Validate:
-
-- Story ID exists
-- Story Plan exists
-- Scope In exists
-- Scope Out exists
-- Knowledge References exist
-
-If validation fails:
-
-Status = Blocked
-
-Stop workflow.
-
----
-
-## Step 9 – User Story Generation
-
-Call:
-
 User Story Generation Agent
 
 Provide:
 
-- Selected Story Plan
-- Requirement Analysis Output
+- Functional Requirement Analysis Output
 - Existing Material Analysis Output
-- Impact Analysis Output
-- Dependency Analysis Output
+- System Impact Analysis Output
 - Clarification Log
 
-Generate exactly ONE User Story.
+Generate:
+
+- One complete implementation-ready User Story
+
+Review Status.
 
 If Status = Blocked:
 
 Stop workflow.
 
-Request corrective information.
-
----
+Request missing information.
 
 # Error Handling
 
