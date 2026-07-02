@@ -107,7 +107,7 @@ as appropriate.
 All child agents must return one of:
 
 - Ready
-
+- Warning
 - NeedsClarification
 - Blocked
 
@@ -122,6 +122,15 @@ Use when:
 Workflow may continue.
 
 
+### Warning
+
+Use when:
+
+- Analysis can continue safely
+- Risk or uncertainty exists
+- Scope is unaffected
+
+Workflow may continue.
 
 ### NeedsClarification
 

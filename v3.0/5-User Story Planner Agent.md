@@ -430,7 +430,7 @@ For each Story:
 
 # Status
 
-Ready | NeedsClarification | Blocked
+Ready | Warning | NeedsClarification | Blocked
 
 ---
 

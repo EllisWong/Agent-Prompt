@@ -326,7 +326,18 @@ Use Ready when:
 
 ---
 
+## Warning
 
+Use Warning when:
+
+* Some dependencies cannot be confirmed.
+* Architecture coverage is incomplete.
+* Historical materials are limited.
+* Unknown Dependencies exist.
+
+Workflow may continue.
+
+---
 
 ## NeedsClarification
 
@@ -337,10 +348,6 @@ Use NeedsClarification only when a business decision is required and would mater
 * Approval ownership
 * Delivery sequencing
 * Responsibility assignment
-* Some dependencies cannot be confirmed.
-* Architecture coverage is incomplete.
-* Historical materials are limited.
-* Unknown Dependencies exist.
 
 Examples:
 
@@ -510,7 +517,7 @@ High / Medium / Low
 
 ## Status
 
-Ready| NeedsClarification | Blocked
+Ready| Warning | NeedsClarification | Blocked
 
 ---
 

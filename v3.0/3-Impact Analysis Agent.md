@@ -236,8 +236,13 @@ Use Ready when:
 - Dependency Analysis can proceed.
 ## Warning
 
+Use Warning when:
 
-
+- Partial knowledge exists.
+- Some impacts are unknown.
+- Historical materials are incomplete.
+- Architecture coverage is incomplete.
+- Workflow may continue.
 
 ## NeedsClarification
 
@@ -250,12 +255,6 @@ Examples:
 - User role unclear
 - Scope unclear
 - Approval responsibility unclear
-- Some impacts are unknown.
-- Historical materials are incomplete.
-- Architecture coverage is incomplete.
-- Partial knowledge exists.
-- Workflow may continue.
-- Questions exists.
 
 Return:
 Status: NeedsClarification
@@ -346,7 +345,7 @@ High / Medium / Low
 
 ## Status
 
-Ready  | NeedsClarification | Blocked
+Ready  | Warning | NeedsClarification | Blocked
 
 ---
 

@@ -312,16 +312,15 @@ Return Ready when:
 
 ---
 
-## NeedsClarification
+## Warning
 
-Return NeedsClarification when:
-
+Return Warning when:
 * Knowledge coverage is limited.
 * Relevant materials are partially available.
 * Historical approaches conflict.
 * Supporting evidence is incomplete.
 
-NeedsClarification must not stop workflow progression.
+Warnings must not stop workflow progression.
 
 ---
 
@@ -531,7 +530,7 @@ Relevant Historical Materials Found: <number>
 
 ## Status
 
-Ready | NeedsClarification | Blocked
+Ready | Warning | Blocked
 
 
 
