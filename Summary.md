@@ -14,7 +14,7 @@
 | Knowledge (SharePoint, Files) | Yes                | Yes                  |
 | Microsoft Graph grounding     | Yes                | Yes                  |
 | Microsoft 365 integration     | Excellent          | Excellent            |
-| Power Platform connectors     | Limited            | Yes Full support     |
+| Power Platform connectors     | Limited            | Full support         |
 | Premium connectors            | No                 | Yes                  |
 | Custom APIs                   | Limited            | Yes                  |
 | REST APIs                     | Limited            | Yes                  |
@@ -91,8 +91,8 @@
 | Item                   | M365 Copilot Agent                                | Copilot Studio                      |
 | ---------------------- | ------------------------------------------------- | ----------------------------------- |
 | Base license           | Microsoft 365 Copilot (~US$30/user/month)         | Pay-as-you-go or prepaid credits    |
-| Included agent builder | Yes Yes                                           | N/A                                 |
+| Included agent builder | Yes                                               | N/A                                 |
 | Internal agent usage   | Included for licensed users (subject to fair use) | Credit consumption                  |
-| External users         | Not supported                                   | Yes Supported                       |
+| External users         | Not supported                                     | Supported                           |
 | Azure subscription     | No                                                | Yes (standalone)                    |
 | Pricing model          | Per-user                                          | Consumption-based (Copilot Credits) |
