@@ -6,100 +6,93 @@
 | **Best for**        | Personal/team assistants                   | Enterprise-grade AI agents                                 |
 
 # Capability Comparison
+
 | Capability                    | M365 Copilot Agent | Copilot Studio Agent |
 | ----------------------------- | ------------------ | -------------------- |
-| Build custom agents           | ✅                  | ✅                    |
-| Prompt & Instructions         | ✅                  | ✅                    |
-| Knowledge (SharePoint, Files) | ✅                  | ✅                    |
-| Microsoft Graph grounding     | ✅                  | ✅                    |
-| Microsoft 365 integration     | ⭐ Excellent        | ⭐ Excellent          |
-| Power Platform connectors     | Limited            | ✅ Full support       |
-| Premium connectors            | ❌                  | ✅                    |
-| Custom APIs                   | Limited            | ✅                    |
-| REST APIs                     | Limited            | ✅                    |
-| Autonomous agents             | ❌                  | ✅                    |
-| Multi-agent orchestration     | Basic              | ✅                    |
-| Triggered workflows           | Limited            | ✅                    |
-| Human-in-the-loop             | Limited            | ✅                    |
+| Build custom agents           | Yes                | Yes                  |
+| Prompt & Instructions         | Yes                | Yes                  |
+| Knowledge (SharePoint, Files) | Yes                | Yes                  |
+| Microsoft Graph grounding     | Yes                | Yes                  |
+| Microsoft 365 integration     | Excellent          | Excellent            |
+| Power Platform connectors     | Limited            | Yes Full support     |
+| Premium connectors            | No                 | Yes                  |
+| Custom APIs                   | Limited            | Yes                  |
+| REST APIs                     | Limited            | Yes                  |
+| Autonomous agents             | No                 | Yes                  |
+| Multi-agent orchestration     | Basic              | Yes                  |
+| Triggered workflows           | Limited            | Yes                  |
+| Human-in-the-loop             | Limited            | Yes                  |
 | Power Automate integration    | Basic              | Advanced             |
 | Dataverse integration         | Limited            | Full                 |
-| Azure AI integration          | ❌                  | ✅                    |
-| Azure AI Search               | ❌                  | ✅                    |
-| Custom authentication         | ❌                  | ✅                    |
-| External websites             | ❌                  | ✅                    |
-| Microsoft Teams               | ✅                  | ✅                    |
-| Microsoft 365 Apps            | ✅                  | ✅                    |
-| Web deployment                | ❌                  | ✅                    |
-| Mobile app integration        | ❌                  | ✅                    |
-| IVR / Voice                   | ❌                  | ✅                    |
+| Azure AI integration          | No                 | Yes                  |
+| Azure AI Search               | No                 | Yes                  |
+| Custom authentication         | No                 | Yes                  |
+| External websites             | No                 | Yes                  |
+| Microsoft Teams               | Yes                | Yes                  |
+| Microsoft 365 Apps            | Yes                | Yes                  |
+| Web deployment                | No                 | Yes                  |
+| Mobile app integration        | No                 | Yes                  |
+| IVR / Voice                   | No                 | Yes                  |
 | Version management            | Basic              | Advanced             |
-| ALM / Solution management     | ❌                  | ✅                    |
+| ALM / Solution management     | No                 | Yes                  |
 | Environment support           | Limited            | Dev/Test/Prod        |
 | Governance                    | Basic              | Enterprise           |
 
-#
-Pros & Cons
-Microsoft 365 Copilot Agent
-Pros
-Included with Microsoft 365 Copilot license
-Very easy to build
-Fastest way to create internal AI assistants
-Excellent Microsoft Graph grounding
-Ideal for SharePoint, Teams, Outlook, OneDrive
-No infrastructure management
-No additional usage charges for normal licensed-user interactions
-Cons
-Internal Microsoft 365 only
-Cannot publish to external websites
-Limited connectors
-Limited workflow automation
-Limited governance
-No autonomous agents
-Limited enterprise integration
+# Pros & Cons
 
-Ideal for
+## Microsoft 365 Copilot Agent
 
-HR assistant
-IT FAQ
-Company knowledge search
-Policy assistant
-Internal document assistant
-Copilot Studio Agent
-Pros
-Enterprise-grade platform
-Publish externally (websites, apps, social channels)
-Premium and custom connectors
-REST APIs
-Azure integration
-Power Platform integration
-Dataverse
-Autonomous agents
-Event-driven automation
-Enterprise governance
-Multi-agent systems
-ALM support
-Cons
-Higher learning curve
-Consumption-based pricing
-Azure subscription required for standalone usage
-More architecture and governance planning required
+### Pros
 
-Ideal for
+- Included with Microsoft 365 Copilot license
+- Very easy to build
+- Fastest way to create internal AI assistants
+- Excellent Microsoft Graph grounding
+- Ideal for SharePoint, Teams, Outlook, OneDrive
+- No infrastructure management
+- No additional usage charges for normal licensed-user interactions
 
-Customer service bots
-Enterprise workflow automation
-CRM integration
-ERP integration
-AI process automation
-Multi-system orchestration
-External-facing agents
+### Cons
+
+- Internal Microsoft 365 only
+- Cannot publish to external websites
+- Limited connectors
+- Limited workflow automation
+- Limited governance
+- No autonomous agents
+- Limited enterprise integration
+
+## Copilot Studio Agent
+
+## Pros
+
+- Enterprise-grade platform
+- Publish externally (websites, apps, social channels)
+- Premium and custom connectors
+- REST APIs
+- Azure integration
+- Power Platform integration
+- Dataverse
+- Autonomous agents
+- Event-driven automation
+- Enterprise governance
+- Multi-agent systems
+- ALM support
+
+## Cons
+
+- Higher learning curve
+- Consumption-based pricing
+- Azure subscription required for standalone usage
+- More architecture and governance planning required
 
 # Pricing Comparison
+
 | Item                   | M365 Copilot Agent                                | Copilot Studio                      |
 | ---------------------- | ------------------------------------------------- | ----------------------------------- |
 | Base license           | Microsoft 365 Copilot (~US$30/user/month)         | Pay-as-you-go or prepaid credits    |
-| Included agent builder | ✅ Yes                                             | N/A                                 |
+| Included agent builder | Yes Yes                                           | N/A                                 |
 | Internal agent usage   | Included for licensed users (subject to fair use) | Credit consumption                  |
-| External users         | ❌ Not supported                                   | ✅ Supported                         |
+| External users         | Not supported                                   | Yes Supported                       |
 | Azure subscription     | No                                                | Yes (standalone)                    |
 | Pricing model          | Per-user                                          | Consumption-based (Copilot Credits) |
