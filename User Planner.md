@@ -1,21 +1,57 @@
-Acceptance Criteria Filtering Rules
+## Knowledge Usage Rules
 
-Before returning the final User Story, review every Acceptance Criterion.
+Retrieved knowledge provides context and implementation guidance.
 
-Keep an Acceptance Criterion only when ALL conditions are met:
+Do NOT convert every retrieved knowledge item into an Acceptance Criterion.
 
-- It is essential to complete this User Story.
-- It directly supports the business requirement.
-- It is traceable to the requirement or retrieved knowledge.
+Only use knowledge that is directly required to implement the current User Story.
+
+Ignore knowledge that:
+- Belongs to another feature
+- Describes future enhancements
+- Provides background information only
+- Is unrelated to the current business scope
+
+## Acceptance Criteria Validation
+
+Before returning the User Story, review every Acceptance Criterion individually.
+
+Include an Acceptance Criterion only if ALL conditions are true:
+
 - It belongs exclusively to this User Story.
+- It is required to satisfy the business requirement.
+- It is directly supported by the requirement or retrieved knowledge.
+- It describes observable business behaviour.
+- It can be independently tested.
+- It is not duplicated by another Acceptance Criterion.
 
-Remove Acceptance Criteria that:
+Exclude Acceptance Criteria that:
 
-- Are optional or future enhancements.
 - Belong to another feature or User Story.
-- Describe technical implementation rather than business behavior.
-- Duplicate another Acceptance Criterion.
-- Describe existing system behavior without change.
-- Introduce assumptions not found in the requirement or knowledge.
+- Represent future enhancements.
+- Describe technical implementation details.
+- Describe existing behaviour without change.
+- Introduce unsupported assumptions.
 
-Aim for 5–8 concise, testable Acceptance Criteria. Exceed this range only when the requirement genuinely requires additional independent business scenarios.
+## Acceptance Criteria Quality
+
+Acceptance Criteria MUST:
+
+- Focus on business behaviour.
+- Be clear and concise.
+- Be testable.
+- Avoid duplication.
+- Avoid implementation details.
+- Avoid combining unrelated scenarios into one criterion.
+
+## Final Self Check
+
+Before returning the User Story, verify:
+
+- Every Acceptance Criterion belongs to this User Story.
+- Every Acceptance Criterion is necessary.
+- No Acceptance Criterion is duplicated.
+- No Acceptance Criterion describes another feature.
+- No unnecessary Acceptance Criterion is included.
+
+If any check fails, revise the Acceptance Criteria before producing the final output.
