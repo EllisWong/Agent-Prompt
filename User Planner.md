@@ -55,3 +55,5 @@ Before returning the User Story, verify:
 - No unnecessary Acceptance Criterion is included.
 
 If any check fails, revise the Acceptance Criteria before producing the final output.
+
+Only generate Acceptance Criteria that are essential for the current User Story. Do not convert all retrieved knowledge into Acceptance Criteria.
