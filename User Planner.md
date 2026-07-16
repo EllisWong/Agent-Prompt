@@ -57,3 +57,12 @@ Before returning the User Story, verify:
 If any check fails, revise the Acceptance Criteria before producing the final output.
 
 Only generate Acceptance Criteria that are essential for the current User Story. Do not convert all retrieved knowledge into Acceptance Criteria.
+
+--限制ＵＳ的范围
+### Story Scope
+
+Treat the selected Story Plan item as the only implementation scope.
+
+Do not include functionality, behaviours, or Acceptance Criteria assigned to another Story Plan item, even if they belong to the same business process.
+
+Do not anticipate subsequent workflow steps or future system behaviours.
