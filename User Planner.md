@@ -66,3 +66,17 @@ Treat the selected Story Plan item as the only implementation scope.
 Do not include functionality, behaviours, or Acceptance Criteria assigned to another Story Plan item, even if they belong to the same business process.
 
 Do not anticipate subsequent workflow steps or future system behaviours.
+
+
+--
+Scope Priority
+
+When generating a User Story, use the selected Story Plan item as the authoritative definition of scope.
+
+The original requirement provides business context only.
+
+If the requirement contains functionality outside the selected Story Plan, ignore it for this User Story.
+
+Expand only the selected Story Plan item.
+
+Do not expand the original requirement.
