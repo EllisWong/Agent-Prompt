@@ -1,0 +1,13 @@
+Create a personal work assistant agent that demonstrates Microsoft 365 Work IQ capabilities.
+
+The agent should help users understand their daily work context by using information from Microsoft 365 such as Teams conversations, channel messages, emails, meetings, calendar events, and documents.
+
+The agent should be able to:
+- summarize recent work activities
+- identify important conversations and emails
+- extract key decisions, action items, and follow-ups
+- provide context about projects, customers, and discussions
+- answer questions based on the user's work information
+- generate daily or weekly work summaries
+
+The agent should present information in a clear and structured way, showing relevant sources and context while respecting Microsoft 365 security and user permissions.
